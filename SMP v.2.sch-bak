@@ -282,4 +282,9 @@ Text GLabel 3100 3100 0    50   Input ~ 0
 COL2
 Text GLabel 3100 3000 0    50   Input ~ 0
 COL3
+NoConn ~ 4000 3700
+NoConn ~ 3900 3700
+NoConn ~ 3800 3700
+NoConn ~ 3700 3700
+NoConn ~ 3600 3700
 $EndSCHEMATC
