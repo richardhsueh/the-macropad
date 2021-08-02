@@ -36,17 +36,6 @@ F 3 "" H 5325 2675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Small D1
-U 1 1 610887C5
-P 5700 2950
-F 0 "D1" V 5746 2880 50  0000 R CNN
-F 1 "D_Small" V 5655 2880 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 5700 2950 50  0001 C CNN
-F 3 "~" V 5700 2950 50  0001 C CNN
-	1    5700 2950
-	0    -1   -1   0   
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-NoLED MX2
 U 1 1 6108A2CF
 P 6550 2700
@@ -316,4 +305,15 @@ Wire Wire Line
 Connection ~ 3100 2400
 Wire Wire Line
 	4700 2300 4500 2300
+$Comp
+L Device:D_Small D1
+U 1 1 610887C5
+P 5700 2950
+F 0 "D1" V 5746 2880 50  0000 R CNN
+F 1 "D_Small" V 5655 2880 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 5700 2950 50  0001 C CNN
+F 3 "~" V 5700 2950 50  0001 C CNN
+	1    5700 2950
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
