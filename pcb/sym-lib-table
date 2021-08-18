@@ -10,4 +10,5 @@
   (lib (name Regulator_Linear)(type Legacy)(uri /Users/richardhsueh/Downloads/2moons-library-main/kicad-symbols/Regulator_Linear.lib)(options "")(descr ""))
   (lib (name usb-type-c)(type Legacy)(uri /Users/richardhsueh/Downloads/2moons-library-main/kicad-symbols/usb-type-c.lib)(options "")(descr ""))
   (lib (name usb2422)(type Legacy)(uri /Users/richardhsueh/Downloads/2moons-library-main/kicad-symbols/usb2422.lib)(options "")(descr ""))
+  (lib (name SMP-v.2-rescue)(type Legacy)(uri "${KIPRJMOD}/SMP v.2-rescue.lib")(options "")(descr ""))
 )
