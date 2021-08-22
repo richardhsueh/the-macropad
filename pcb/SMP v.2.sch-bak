@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SMP-v.2-rescue:Elite-C-keebio U1
-U 1 1 610873F7
-P 3800 2750
-F 0 "U1" H 3800 3587 60  0000 C CNN
-F 1 "Elite-C" H 3800 3481 60  0000 C CNN
-F 2 "Keebio-Parts:Elite-C" V 4850 250 60  0001 C CNN
-F 3 "" V 4850 250 60  0001 C CNN
-	1    3800 2750
-	1    0    0    -1  
-$EndComp
-$Comp
 L SMP-v.2-rescue:MX-NoLED-MX_Alps_Hybrid MX1
 U 1 1 61087E0A
 P 5950 2700
@@ -49,12 +38,12 @@ $EndComp
 $Comp
 L Device:D_Small D2
 U 1 1 6108A2D5
-P 6300 2950
-F 0 "D2" V 6346 2880 50  0000 R CNN
-F 1 "D_Small" V 6255 2880 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 6300 2950 50  0001 C CNN
-F 3 "~" V 6300 2950 50  0001 C CNN
-	1    6300 2950
+P 6200 3000
+F 0 "D2" V 6246 2930 50  0000 R CNN
+F 1 "D_Small" V 6155 2930 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6200 3000 50  0001 C CNN
+F 3 "~" V 6200 3000 50  0001 C CNN
+	1    6200 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -67,17 +56,6 @@ F 2 "MX_Only:MXOnly-1U-NoLED" H 6525 2675 60  0001 C CNN
 F 3 "" H 6525 2675 60  0001 C CNN
 	1    7150 2700
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D3
-U 1 1 6108B8E1
-P 6900 2950
-F 0 "D3" V 6946 2880 50  0000 R CNN
-F 1 "D_Small" V 6855 2880 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 6900 2950 50  0001 C CNN
-F 3 "~" V 6900 2950 50  0001 C CNN
-	1    6900 2950
-	0    -1   -1   0   
 $EndComp
 $Comp
 L SMP-v.2-rescue:MX-NoLED-MX_Alps_Hybrid MX4
@@ -93,12 +71,12 @@ $EndComp
 $Comp
 L Device:D_Small D4
 U 1 1 6108BA4D
-P 7500 2950
-F 0 "D4" V 7546 2880 50  0000 R CNN
-F 1 "D_Small" V 7455 2880 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 7500 2950 50  0001 C CNN
-F 3 "~" V 7500 2950 50  0001 C CNN
-	1    7500 2950
+P 7400 3000
+F 0 "D4" V 7446 2930 50  0000 R CNN
+F 1 "D_Small" V 7355 2930 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 7400 3000 50  0001 C CNN
+F 3 "~" V 7400 3000 50  0001 C CNN
+	1    7400 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -111,17 +89,6 @@ F 2 "MX_Only:MXOnly-1U-NoLED" H 5325 3375 60  0001 C CNN
 F 3 "" H 5325 3375 60  0001 C CNN
 	1    5950 3400
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D5
-U 1 1 61091787
-P 5700 3650
-F 0 "D5" V 5746 3580 50  0000 R CNN
-F 1 "D_Small" V 5655 3580 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 5700 3650 50  0001 C CNN
-F 3 "~" V 5700 3650 50  0001 C CNN
-	1    5700 3650
-	0    -1   -1   0   
 $EndComp
 $Comp
 L SMP-v.2-rescue:MX-NoLED-MX_Alps_Hybrid MX6
@@ -137,12 +104,12 @@ $EndComp
 $Comp
 L Device:D_Small D6
 U 1 1 61091793
-P 6300 3650
-F 0 "D6" V 6346 3580 50  0000 R CNN
-F 1 "D_Small" V 6255 3580 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 6300 3650 50  0001 C CNN
-F 3 "~" V 6300 3650 50  0001 C CNN
-	1    6300 3650
+P 6200 3850
+F 0 "D6" V 6246 3780 50  0000 R CNN
+F 1 "D_Small" V 6155 3780 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6200 3850 50  0001 C CNN
+F 3 "~" V 6200 3850 50  0001 C CNN
+	1    6200 3850
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -155,17 +122,6 @@ F 2 "MX_Only:MXOnly-1U-NoLED" H 6525 3375 60  0001 C CNN
 F 3 "" H 6525 3375 60  0001 C CNN
 	1    7150 3400
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D7
-U 1 1 6109179F
-P 6900 3650
-F 0 "D7" V 6946 3580 50  0000 R CNN
-F 1 "D_Small" V 6855 3580 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 6900 3650 50  0001 C CNN
-F 3 "~" V 6900 3650 50  0001 C CNN
-	1    6900 3650
-	0    -1   -1   0   
 $EndComp
 $Comp
 L SMP-v.2-rescue:MX-NoLED-MX_Alps_Hybrid MX8
@@ -181,65 +137,20 @@ $EndComp
 $Comp
 L Device:D_Small D8
 U 1 1 610917AB
-P 7500 3650
-F 0 "D8" V 7546 3580 50  0000 R CNN
-F 1 "D_Small" V 7455 3580 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 7500 3650 50  0001 C CNN
-F 3 "~" V 7500 3650 50  0001 C CNN
-	1    7500 3650
+P 7400 3850
+F 0 "D8" V 7446 3780 50  0000 R CNN
+F 1 "D_Small" V 7355 3780 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 7400 3850 50  0001 C CNN
+F 3 "~" V 7400 3850 50  0001 C CNN
+	1    7400 3850
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5250 3050 5700 3050
-Connection ~ 5700 3050
-Wire Wire Line
-	5700 3050 6300 3050
-Connection ~ 6300 3050
-Wire Wire Line
-	6300 3050 6900 3050
-Connection ~ 6900 3050
-Wire Wire Line
-	6900 3050 7500 3050
-Wire Wire Line
-	5250 3750 5700 3750
-Connection ~ 5700 3750
-Wire Wire Line
-	5700 3750 6300 3750
-Connection ~ 6300 3750
-Wire Wire Line
-	6300 3750 6900 3750
-Connection ~ 6900 3750
-Wire Wire Line
-	6900 3750 7500 3750
-Wire Wire Line
-	5700 2850 5900 2850
-Wire Wire Line
-	6300 2850 6500 2850
-Wire Wire Line
-	6900 2850 7100 2850
-Wire Wire Line
-	7500 2850 7700 2850
-Wire Wire Line
-	7500 3550 7700 3550
-Wire Wire Line
-	6900 3550 7100 3550
-Wire Wire Line
-	6300 3550 6500 3550
-Wire Wire Line
-	5700 3550 5900 3550
-Wire Wire Line
-	6100 3350 6100 2650
-Connection ~ 6100 2650
+Connection ~ 6200 3100
+Connection ~ 6200 3950
 Wire Wire Line
 	6100 2650 6100 2100
 Wire Wire Line
-	6700 3350 6700 2650
-Connection ~ 6700 2650
-Wire Wire Line
 	6700 2650 6700 2100
-Wire Wire Line
-	7300 3350 7300 2650
-Connection ~ 7300 2650
 Wire Wire Line
 	7300 2650 7300 2100
 Wire Wire Line
@@ -247,9 +158,9 @@ Wire Wire Line
 Connection ~ 7900 2650
 Wire Wire Line
 	7900 2650 7900 2100
-Text GLabel 5250 3050 0    50   Input ~ 0
+Text GLabel 5150 3100 0    50   Input ~ 0
 ROW0
-Text GLabel 5250 3750 0    50   Input ~ 0
+Text GLabel 5150 3950 0    50   Input ~ 0
 ROW1
 Text GLabel 6100 2100 1    50   Input ~ 0
 COL0
@@ -259,10 +170,6 @@ Text GLabel 7300 2100 1    50   Input ~ 0
 COL2
 Text GLabel 7900 2100 1    50   Input ~ 0
 COL3
-Text GLabel 4500 3300 2    50   Input ~ 0
-ROW1
-Text GLabel 4500 3200 2    50   Input ~ 0
-ROW0
 Text GLabel 3100 3300 0    50   Input ~ 0
 COL0
 Text GLabel 3100 3200 0    50   Input ~ 0
@@ -302,18 +209,67 @@ Wire Wire Line
 	2900 2400 3100 2400
 Wire Wire Line
 	3100 2500 3100 2400
-Connection ~ 3100 2400
 Wire Wire Line
 	4700 2300 4500 2300
+Connection ~ 3100 2400
 $Comp
-L Device:D_Small D1
-U 1 1 610887C5
-P 5700 2950
-F 0 "D1" V 5746 2880 50  0000 R CNN
-F 1 "D_Small" V 5655 2880 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 5700 2950 50  0001 C CNN
-F 3 "~" V 5700 2950 50  0001 C CNN
-	1    5700 2950
-	0    -1   -1   0   
+L SMP-v.2-rescue:Elite-C-keebio U1
+U 1 1 610873F7
+P 3800 2750
+F 0 "U1" H 3800 3587 60  0000 C CNN
+F 1 "Elite-C" H 3800 3481 60  0000 C CNN
+F 2 "Keebio-Parts:Elite-C" V 4850 250 60  0001 C CNN
+F 3 "" V 4850 250 60  0001 C CNN
+	1    3800 2750
+	1    0    0    -1  
 $EndComp
+Text GLabel 3100 2900 0    50   Input ~ 0
+ROW1
+Text GLabel 3100 2800 0    50   Input ~ 0
+ROW0
+Wire Wire Line
+	5150 3100 6200 3100
+Wire Wire Line
+	5150 3950 6200 3950
+Wire Wire Line
+	6200 3950 7400 3950
+Wire Wire Line
+	6200 3100 7400 3100
+Wire Wire Line
+	7400 2850 7400 2900
+Wire Wire Line
+	7400 2850 7700 2850
+Wire Wire Line
+	7100 2850 7400 2850
+Connection ~ 7400 2850
+Wire Wire Line
+	5900 2850 6200 2850
+Wire Wire Line
+	6200 2850 6200 2900
+Wire Wire Line
+	6200 2850 6500 2850
+Connection ~ 6200 2850
+Wire Wire Line
+	5900 3550 6200 3550
+Wire Wire Line
+	6200 3550 6200 3750
+Wire Wire Line
+	6200 3550 6500 3550
+Connection ~ 6200 3550
+Wire Wire Line
+	7100 3550 7400 3550
+Wire Wire Line
+	7400 3550 7400 3750
+Wire Wire Line
+	7400 3550 7700 3550
+Connection ~ 7400 3550
+Wire Wire Line
+	6700 2650 6700 3350
+Connection ~ 6700 2650
+Wire Wire Line
+	7300 2650 7300 3350
+Connection ~ 7300 2650
+Wire Wire Line
+	6100 2650 6100 3350
+Connection ~ 6100 2650
 $EndSCHEMATC
