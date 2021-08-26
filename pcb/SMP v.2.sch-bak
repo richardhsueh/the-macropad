@@ -719,9 +719,9 @@ Wire Wire Line
 	2300 3350 2700 3350
 Wire Wire Line
 	2300 3250 2700 3250
-Text GLabel 6700 3000 2    50   Input ~ 0
-ROW1
 Text GLabel 6700 2900 2    50   Input ~ 0
+ROW1
+Text GLabel 6700 3000 2    50   Input ~ 0
 ROW0
 Text GLabel 6700 2300 2    50   Input ~ 0
 COL0

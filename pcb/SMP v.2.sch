@@ -271,28 +271,6 @@ Wire Wire Line
 Wire Wire Line
 	4550 3000 4550 3150
 $Comp
-L Device:C_Small C2
-U 1 1 6128EFC8
-P 3850 4350
-F 0 "C2" H 3942 4396 50  0000 L CNN
-F 1 "0.1uF" H 3942 4305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3850 4350 50  0001 C CNN
-F 3 "~" H 3850 4350 50  0001 C CNN
-	1    3850 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C3
-U 1 1 6128F36D
-P 4200 4350
-F 0 "C3" H 4292 4396 50  0000 L CNN
-F 1 "0.1uF" H 4292 4305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4200 4350 50  0001 C CNN
-F 3 "~" H 4200 4350 50  0001 C CNN
-	1    4200 4350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C4
 U 1 1 6128F729
 P 4600 4350
@@ -314,19 +292,9 @@ F 3 "~" H 4950 4350 50  0001 C CNN
 	1    4950 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3850 4250 4200 4250
-Connection ~ 4200 4250
-Wire Wire Line
-	4200 4250 4400 4250
 Connection ~ 4600 4250
 Wire Wire Line
 	4600 4250 4950 4250
-Wire Wire Line
-	3850 4450 4200 4450
-Connection ~ 4200 4450
-Wire Wire Line
-	4200 4450 4400 4450
 Connection ~ 4600 4450
 Wire Wire Line
 	4600 4450 4950 4450
@@ -354,12 +322,10 @@ F 3 "" H 4400 4100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4400 4100 4400 4250
-Connection ~ 4400 4250
 Wire Wire Line
 	4400 4250 4600 4250
 Wire Wire Line
 	4400 4450 4400 4600
-Connection ~ 4400 4450
 Wire Wire Line
 	4400 4450 4600 4450
 $Comp
