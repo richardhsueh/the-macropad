@@ -1,13 +1,20 @@
 {
-    "name": "8hands SMP",
-    "vendorId": "0xFEED",
-    "productId": "0x6060",
-    "lighting": "none",
-    "matrix": { "rows": 2, "cols": 4 },
+    "name": "The Macropad rev.4",
+    "keyboard_name": "The Macropad rev.4",
+    "maintainer": "~samhec-sidrex",
     "layouts": {
-        "keymap": [
-            ["0,0", "0,1", "0,2", "0,3"],
-            ["1,0", "1,1", "1,2", "1,3"]
-        ]
+        "LAYOUT_all": {
+            "layout": [
+                { "x": 0, "y": 0 },
+                { "x": 0, "y": 1 },
+                { "x": 0, "y": 2 },
+                { "x": 1, "y": 0 },
+                { "x": 1, "y": 1 },
+                { "x": 1, "y": 2 },
+                { "x": 2, "y": 0 },
+                { "x": 2, "y": 1 },
+                { "x": 2, "y": 2 }
+            ]
+        }
     }
 }

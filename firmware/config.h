@@ -12,12 +12,12 @@
 #define DESCRIPTION     8hands_smp
 
 /* key matrix size */
-#define MATRIX_ROWS 2
-#define MATRIX_COLS 4
+#define MATRIX_ROWS 3
+#define MATRIX_COLS 3
 
 /* key matrix pins */
-#define MATRIX_ROW_PINS { B2, B6 }
-#define MATRIX_COL_PINS { B5, B4, E6, D7 }
+#define MATRIX_ROW_PINS { D7, E6, B4 }
+#define MATRIX_COL_PINS { C6, D4, D0 }
 #define UNUSED_PINS
 
 /* COL2ROW or ROW2COL */
