@@ -124,7 +124,7 @@ Wire Wire Line
 Connection ~ 10050 2450
 Wire Wire Line
 	10050 2450 10050 3250
-Text GLabel 8100 2850 0    50   Input ~ 0
+Text GLabel 8100 4450 0    50   Input ~ 0
 ROW2
 $Comp
 L Mechanical:MountingHole_Pad H1
@@ -355,7 +355,7 @@ Wire Wire Line
 	8650 4250 8550 4250
 Wire Wire Line
 	8850 3250 8850 4050
-Text GLabel 8100 4450 0    50   Input ~ 0
+Text GLabel 8100 2850 0    50   Input ~ 0
 ROW0
 Text GLabel 5300 2900 0    50   Input ~ 0
 ROW2
