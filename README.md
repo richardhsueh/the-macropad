@@ -1,4 +1,4 @@
-# PCB Project
+# The Macropad
 
 ## Overview
 A custom design Macropad with 9 buttons
@@ -20,7 +20,7 @@ project/
 
 ## Requirements
 - KiCad 7.0+
-- [Other tools/dependencies]
+- VScode
 
 ## Manufacturing
 Gerber files are provided in `pcb/` and `plate/`. Recommended fab specs:
